@@ -1,0 +1,22 @@
+# Environments
+env/
+venv/
+.env
+
+# Python junk
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Model files (Optional: keep these if you want the weights on GitHub)
+# If your weights are huge (>50MB), it's better to exclude them or use LFS
+# weights/*.pt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
