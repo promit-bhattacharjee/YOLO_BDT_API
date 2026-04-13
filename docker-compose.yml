@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: yolo_bdt
+    ports:
+      - "8080:8080"
+    volumes:
+      - .:/app  # This maps your whole project so you can edit code live
+    environment:
+      - MODEL_PATH=/app/model/weights/best.pt
+    restart: unless-stopped
