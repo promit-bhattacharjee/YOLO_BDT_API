@@ -3,7 +3,7 @@ from typing import List, Any
 
 class PredictionInput(BaseModel):
     # If passing raw bytes (common for FastAPI file uploads)
-    image_bytes: bytes 
+    image: bytes 
     # Alternatively, use 'str' if passing a file path
     # image_path: str 
 

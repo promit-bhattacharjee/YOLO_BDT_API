@@ -19,6 +19,7 @@ hpack @ file:///home/conda/feedstock_root/build_artifacts/hpack_1737618293087/wo
 hyperframe @ file:///home/conda/feedstock_root/build_artifacts/hyperframe_1737618333194/work
 idna==3.11
 Jinja2==3.1.6
+joblib==1.5.3
 kiwisolver==1.5.0
 MarkupSafe==3.0.3
 matplotlib==3.10.8
@@ -42,6 +43,7 @@ pyDeprecate==0.5.0
 pyparsing==3.3.2
 PySocks @ file:///D:/bld/pysocks_1733217287171/work
 python-dateutil==2.9.0.post0
+python-multipart==0.0.26
 PyYAML==6.0.3
 requests==2.32.5
 scipy==1.17.1
