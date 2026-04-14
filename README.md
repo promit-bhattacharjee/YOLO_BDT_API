@@ -90,3 +90,30 @@ curl -X 'POST' \
 Once the server is running, you can access the interactive API documentation at:
 - **Swagger UI:** `http://localhost:8080/docs`
 - **ReDoc:** `http://localhost:8080/redoc`
+
+---
+
+## 📄 Project Report (Google Doc)
+This project includes a detailed report accessible via Google Docs, serving as evidence of work and in-depth analysis.
+
+**[Access the Project Report Here](https://docs.google.com/document/d/1AmAVsAppivjSxpq5VefHz5Ghe18od0JWj5VEHYwCQL4/edit?usp=sharing)**
+
+The report contains the following sections:
+
+### Task 1 Evidence:
+- A link to the inference script used for detection.
+- A screenshot/image demonstrating a successful detection on a Taka note.
+
+### Task 2 & 3 Evidence:
+- Screenshots from Postman or Terminal (curl) showing the JSON response from the `/predict` endpoint for 5 different test images.
+
+### Task 4 Evidence:
+- Screenshots of the terminal showing the `docker build` and `docker run` commands.
+- A screenshot of the container logs indicating that the API is "Uvicorn running on...".
+
+### Accuracy Discussion:
+- A brief paragraph (3–5 sentences) reflecting on the model's performance on the test images, including observations such as challenges with folded notes or accuracy on specific denominations.
+
+### Bonus (If applicable):
+- The public URL of the deployed application (e.g., Railway/Render link).
+- Screenshots of the application functioning in the cloud.
