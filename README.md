@@ -100,20 +100,20 @@ This project includes a detailed report accessible via Google Docs, serving as e
 
 The report contains the following sections:
 
-### Task 1 Evidence:
-- A link to the inference script used for detection.
-- A screenshot/image demonstrating a successful detection on a Taka note.
+### 1. Model Inference Documentation:
+-   **Inference Script Link:** A direct link to the Python script utilized for performing model inference and object detection.
+-   **Detection Demonstration:** A visual artifact (screenshot or image) illustrating a successful detection event on a Bangladeshi Taka note, highlighting the model's capability.
 
-### Task 2 & 3 Evidence:
-- Screenshots from Postman or Terminal (curl) showing the JSON response from the `/predict` endpoint for 5 different test images.
+### 2. API Endpoint Validation (Tasks 2 & 3):
+-   **JSON Response Captures:** Screenshots from either Postman or a terminal (using `curl` commands) showcasing the JSON responses received from the `/predict` API endpoint across five distinct test images. This validates the API's functionality and response structure.
 
-### Task 4 Evidence:
-- Screenshots of the terminal showing the `docker build` and `docker run` commands.
-- A screenshot of the container logs indicating that the API is "Uvicorn running on...".
+### 3. Docker Deployment Verification (Task 4):
+-   **Docker Build & Run Logs:** Terminal screenshots detailing the execution of `docker build` and `docker run` commands, confirming the successful containerization process.
+-   **API Service Confirmation:** A screenshot of the Docker container logs indicating the operational status of the API, specifically the "Uvicorn running on..." message, thereby confirming service readiness.
 
-### Accuracy Discussion:
-- A brief paragraph (3–5 sentences) reflecting on the model's performance on the test images, including observations such as challenges with folded notes or accuracy on specific denominations.
+### 4. Model Performance Analysis:
+-   **Accuracy Overview:** A concise paragraph (3–5 sentences) providing a critical reflection on the model's performance against the chosen test images. This discussion should include insights into its strengths (e.g., high accuracy on specific denominations) and limitations (e.g., challenges with folded or partially obscured notes).
 
-### Bonus (If applicable):
-- The public URL of the deployed application (e.g., Railway/Render link).
-- Screenshots of the application functioning in the cloud.
+### 5. Cloud Deployment (Optional):
+-   **Public Application URL:** The publicly accessible URL of the deployed application (e.g., hosted on Railway, Render, or similar platforms).
+-   **Cloud Functionality Evidence:** Visual proof (screenshots) demonstrating the application's successful operation and accessibility within the cloud environment.

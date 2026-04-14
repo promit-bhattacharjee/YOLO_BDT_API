@@ -3,3 +3,7 @@ venv/
 __pycache__/
 .git/
 .vscode/
+test/
+BDT_YOLO_API.pdf
+model/yolo26n.pt
+model/weights/
