@@ -1,9 +1,12 @@
-env/
+# Ignore heavy media and training data
+datasets/
+runs/
+*.mp4
+*.jpg
+*.png
+
+# Ignore local environment and git
 venv/
+.git
+.gitignore
 __pycache__/
-.git/
-.vscode/
-test/
-BDT_YOLO_API.pdf
-model/yolo26n.pt
-model/weights/
