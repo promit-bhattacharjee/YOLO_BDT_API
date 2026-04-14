@@ -19,6 +19,11 @@ def home():
 
 @app.post("/predict/", response_model=PredictionOutput)
 async def predict(file: UploadFile = File(...)):
+    if file is None:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="No file uploaded."
+        )
     loaded_model = load_model()
     # 2. Validate Input (File Extension)
     if file.content_type not in ["image/jpeg", "image/png"]:
