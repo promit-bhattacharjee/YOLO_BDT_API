@@ -1,12 +1,22 @@
-# Ignore heavy media and training data
+# Data and Assets (THE BIGGEST OFFENDERS)
 datasets/
+data/
 runs/
+training_results/
 *.mp4
+*.avi
 *.jpg
 *.png
 
-# Ignore local environment and git
-venv/
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Git history (can be surprisingly large)
 .git
 .gitignore
-__pycache__/
+
+# Previous weights (Only keep your FINAL best.pt)
+model/weights/last.pt
+model/weights/train*.pt
