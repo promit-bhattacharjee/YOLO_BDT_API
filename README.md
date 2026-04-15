@@ -100,20 +100,30 @@ This project includes a detailed report accessible via Google Docs, serving as e
 
 The report contains the following sections:
 
-### 1. Model Inference Documentation:
--   **Inference Script Link:** A direct link to the Python script utilized for performing model inference and object detection.
--   **Detection Demonstration:** A visual artifact (screenshot or image) illustrating a successful detection event on a Bangladeshi Taka note, highlighting the model's capability.
+### 1. Model Inference Documentation
+- **Inference Script:** A Python script for performing model inference and object detection.
+- **Detection Example:** Visual evidence (e.g., screenshots) showcasing successful detection of Bangladeshi Taka notes, highlighting the model's capabilities.
 
-### 2. API Endpoint Validation (Tasks 2 & 3):
--   **JSON Response Captures:** Screenshots from either Postman or a terminal (using `curl` commands) showcasing the JSON responses received from the `/predict` API endpoint across five distinct test images. This validates the API's functionality and response structure.
+### 2. API Endpoint Validation
+- **Response Validation:** JSON responses from the `/predict` endpoint, tested with five distinct images, demonstrating the API's functionality and response structure.
+- **Testing Tools:** Screenshots from Postman or terminal commands (e.g., `curl`) validating the API responses.
 
-### 3. Docker Deployment Verification (Task 4):
--   **Docker Build & Run Logs:** Terminal screenshots detailing the execution of `docker build` and `docker run` commands, confirming the successful containerization process.
--   **API Service Confirmation:** A screenshot of the Docker container logs indicating the operational status of the API, specifically the "Uvicorn running on..." message, thereby confirming service readiness.
+### 3. Docker Deployment Verification
+- **Build and Run Logs:** Terminal outputs confirming successful execution of `docker build` and `docker run` commands.
+- **Service Verification:** Logs indicating the operational status of the API (e.g., "Uvicorn running on...").
 
-### 4. Model Performance Analysis:
--   **Accuracy Overview:** A concise paragraph (3–5 sentences) providing a critical reflection on the model's performance against the chosen test images. This discussion should include insights into its strengths (e.g., high accuracy on specific denominations) and limitations (e.g., challenges with folded or partially obscured notes).
+### 4. Model Performance Analysis
+- **Performance Summary:** A brief analysis of the model's accuracy, highlighting strengths (e.g., high precision on specific denominations) and limitations (e.g., challenges with folded or obscured notes).
 
-### 5. Cloud Deployment (Optional):
--   **Public Application URL:** The publicly accessible URL of the deployed application (e.g., hosted on Railway, Render, or similar platforms).
--   **Cloud Functionality Evidence:** Visual proof (screenshots) demonstrating the application's successful operation and accessibility within the cloud environment.
+### 5. Cloud Deployment
+- **Application URL:** The publicly accessible URL of the deployed application (e.g., hosted on Render or similar platforms).
+- **Operational Evidence:** Screenshots demonstrating the application's successful operation and accessibility in the cloud.
+
+---
+
+## 6. Public API URL
+The application is live and accessible via the following endpoint. The Swagger UI has been enabled to allow for interactive testing of the model.
+
+- **Base URL:** `https://yolo-bdt-api.onrender.com`
+- **Interactive Documentation (Swagger):** `https://yolo-bdt-api.onrender.com/docs`
+- **Prediction Endpoint:** `POST /predict/`
