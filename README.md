@@ -26,7 +26,7 @@ YOLO_BDT_API/
 ├── Dockerfile              # Docker configuration for building the image
 ├── docker-compose.yml      # Orchestration for the containerized service
 ├── requirements.txt        # List of Python dependencies
-├── BDT_YOLO_API.pdf        # Documentation for assignment requirements (PDF)
+├── Report.pdf              # Documentation for assignment requirements (PDF)
 └── README.md               # Project documentation
 ```
 
